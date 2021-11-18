@@ -23,7 +23,7 @@ test("get employee's ID", () => {
 test ("get employee's email", ()=> {
     const name = 'newname'
     const id = 1
-    const email = 'any@any.com'
+    const email = 'email@any.com'
     const employee = new Employee(name, id, email)
     expect(employee.email).toBe(email)
 })
@@ -47,7 +47,7 @@ test('test getName()', () => {
   test('test getEmail()', () => {
     const name = 'newname'
     const id = 1
-    const email = 'any@any.com'
+    const email = 'email@any.com'
     const employee = new Employee(name, id, email)
 
     expect(employee.getEmail()).toBe(email)

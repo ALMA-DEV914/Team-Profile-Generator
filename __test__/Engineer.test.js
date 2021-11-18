@@ -4,7 +4,7 @@ const Engineer = require('../lib/Engineer')
 test('get github username', () => {
     const name = "newname"
     const id = 1
-    const email = 'any@any.com'
+    const email = 'email@any.com'
     const github = 'username'
     const employee = new Engineer(name, id, email, github)
 
@@ -14,7 +14,7 @@ test('get github username', () => {
 test('test getGithub', () => {
     const name = "newname"
     const id = 1
-    const email = 'any@any.com'
+    const email = 'email@any.com'
     const github = 'username'
     const employee = new Engineer(name, id, email, github)
 
@@ -24,7 +24,7 @@ test('test getGithub', () => {
 test('test getRole for an engineer', () => {
     const name = "newname"
     const id = 1
-    const email = 'any@any.com'
+    const email = 'email@any.com'
     const github = 'username'
     const role = 'Engineer'
     const employee = new Engineer(name, id, email, github)
