@@ -49,7 +49,9 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
-    
+ 
+ <img width="1636" alt="Screen Shot 2021-11-18 at 9 04 13 PM" src="https://user-images.githubusercontent.com/65073138/142569050-473a6d36-48d2-4d6d-aa8f-4b893d5962d8.png">
+
 
 ## License<a name="license"></a>
 
