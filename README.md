@@ -34,6 +34,9 @@ First install node, navigate to your directory and type npm install jest --save-
  First, cloned the Github Repository of this project. Open in your terminal and run node index.js where all the prompt questions will appear one by one. Answers all questions and navigate to the dist folder where the generated HTML page will be created. Write click the file and view on live server or open on browser and you can see the file and informations you had inputted like the sample snaphot below:
  You can also refer to the walkthrough video for more detailed instructions about this application.
  
+ <img width="1623" alt="Screen Shot 2021-11-18 at 9 46 19 PM" src="https://user-images.githubusercontent.com/65073138/142571991-6c17e5c7-345a-4058-a1fe-64437d78fa62.png">
+
+ 
  <img width="1636" alt="Screen Shot 2021-11-18 at 9 04 13 PM" src="https://user-images.githubusercontent.com/65073138/142569050-473a6d36-48d2-4d6d-aa8f-4b893d5962d8.png">
 
 
@@ -63,9 +66,6 @@ SOFTWARE.
     
 ## Contributing<a name="contributing"></a>
 Check the link [Covenant Contributor](https://www.contributor-covenant.org) 
-
-<img width="1623" alt="Screen Shot 2021-11-18 at 9 46 19 PM" src="https://user-images.githubusercontent.com/65073138/142571867-4ebbaadb-04bf-4e60-974a-33151d7ee2e5.png">
-
  
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
