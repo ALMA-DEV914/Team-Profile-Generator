@@ -7,9 +7,9 @@ let teamMembers = '';
 
 const engineerHTML = (member) => {
     return `
-    <div class="column-4 my-5">
-    <div class="card text-center mx-4 bg-dark">
-      <div class="card-header bg-primary my-4">
+    <div class="column col-3 my-5">
+    <div class="card text-center mx-3 bg-dark">
+      <div class="card-header bg-primary my-4 mx-2">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
       </div>
@@ -27,9 +27,9 @@ const engineerHTML = (member) => {
 
 const internHTML = (member) => {
   return `
-  <div class="column-4 my-5">
-    <div class="card text-center mx-4 bg-dark">
-      <div class="card-header bg-primary my-4">
+  <div class="column col-3 my-5">
+    <div class="card text-center mx-3 bg-dark">
+      <div class="card-header bg-primary my-4 mx-2">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
       </div>
@@ -46,9 +46,9 @@ const internHTML = (member) => {
 };
 const managerHTML = (member) => {
     return `
-    <div class="column-4 my-5">
-      <div class="card text-center mx-4 bg-dark">
-        <div class="card-header bg-primary my-4">
+    <div class="column col-3 my-5">
+      <div class="card text-center mx-3 bg-dark">
+        <div class="card-header bg-primary my-4 mx-2">
             <h2 class="card-title text-light">${member.name }</h2>
             <h3 class="card-title">${member.getRole()}</h3>
         </div>
@@ -90,7 +90,7 @@ const managerHTML = (member) => {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
@@ -100,8 +100,6 @@ const managerHTML = (member) => {
       </div>
     </header>
     <main class="row mx-4 my-4">
-    
-        
     ${teamMembers}
         </main>
   </body>

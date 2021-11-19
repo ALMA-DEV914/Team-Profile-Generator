@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.list-group{
+    background-color: sandybrown;
+}
+.card-body{
+    border: 2px solid green;
+}
