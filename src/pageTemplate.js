@@ -7,7 +7,8 @@ let teamMembers = '';
 
 const engineerHTML = (member) => {
     return `
-    <div class="card col-3 text-center mx-4 bg-dark">
+    <div class="column-4 my-5">
+    <div class="card text-center mx-4 bg-dark">
       <div class="card-header bg-primary my-4">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
@@ -20,13 +21,14 @@ const engineerHTML = (member) => {
           </ul>
       </div>
     </div>
-      
+</div> 
     `;
 };
 
 const internHTML = (member) => {
   return `
-    <div class="card col-3 text-center mx-4 bg-dark">
+  <div class="column-4 my-5">
+    <div class="card text-center mx-4 bg-dark">
       <div class="card-header bg-primary my-4">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
@@ -39,12 +41,13 @@ const internHTML = (member) => {
           </ul>
       </div>
     </div>
-      
+</div>  
     `;
 };
 const managerHTML = (member) => {
     return `
-      <div class="card col-3 text-center mx-4 bg-dark">
+    <div class="column-4 my-5">
+      <div class="card text-center mx-4 bg-dark">
         <div class="card-header bg-primary my-4">
             <h2 class="card-title text-light">${member.name }</h2>
             <h3 class="card-title">${member.getRole()}</h3>
@@ -57,7 +60,7 @@ const managerHTML = (member) => {
             </ul>
         </div>
       </div>
-        
+     </div>   
       `;
   };
   
@@ -93,10 +96,11 @@ const managerHTML = (member) => {
     <body>
     <header>
       <div class="container flex-row justify-space-between align-center py-4 bg-dark">
-        <h1 class="page-title text-light bg-danger py-5 px-3 text-center">My Team</h1>
+        <h1 class="page-title text-light bg-primary py-4 px-3 text-center">My Team</h1>
       </div>
     </header>
-     <main class="container d-flex justify-content-center my-4">
+    <main class="row mx-4 my-4">
+    
         
     ${teamMembers}
         </main>
