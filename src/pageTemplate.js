@@ -2,13 +2,14 @@ const Employee = require("../lib/Employee")
 const Engineer = require("../lib/Engineer")
 const Manager = require("../lib/Manager")
 const Intern = require("../lib/Intern")
+
 let teamMembers = '';
 
 const engineerHTML = (member) => {
     return `
-    <div class="card">
-      <div class="card-header bg-primary">
-          <h2 class="card-title">${member.name }</h2>
+    <div class="card col-4 text-center mx-4 bg-dark">
+      <div class="card-header bg-primary my-4">
+          <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
       </div>
       <div class="card-body">
@@ -25,9 +26,9 @@ const engineerHTML = (member) => {
 
 const internHTML = (member) => {
   return `
-    <div class="card employee-card">
-      <div class="card-header bg-primary">
-          <h2 class="card-title">${member.name }</h2>
+    <div class="card col-4 text-center mx-4 bg-dark">
+      <div class="card-header bg-primary my-4">
+          <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
       </div>
       <div class="card-body">
@@ -43,9 +44,9 @@ const internHTML = (member) => {
 };
 const managerHTML = (member) => {
     return `
-      <div class="card employee-card">
-        <div class="card-header bg-primary">
-            <h2 class="card-title">${member.name }</h2>
+      <div class="card col-4 text-center mx-4 bg-dark">
+        <div class="card-header bg-primary my-4">
+            <h2 class="card-title text-light">${member.name }</h2>
             <h3 class="card-title">${member.getRole()}</h3>
         </div>
         <div class="card-body">
@@ -82,26 +83,25 @@ const managerHTML = (member) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Team Portfolio</title>
+    <title>My Team</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
+    
     </head>
     
     <body>
     <header>
-      <div class="container flex-row justify-space-between align-center py-3">
-        <h1 class="page-title text-secondary bg-dark py-2 px-3">My Team</h1>
+      <div class="container flex-row justify-space-between align-center py-4 bg-dark">
+        <h1 class="page-title text-light bg-danger py-5 px-3 text-center">My Team</h1>
       </div>
     </header>
-    <main class="container my-5">
+     <main class="container d-flex justify-content-center my-4">
         
     ${teamMembers}
-        
-        
-    </main>
+        </main>
   </body>
-    </html>
+</html>
     `;
 }
 
