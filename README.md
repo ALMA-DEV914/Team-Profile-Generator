@@ -63,6 +63,9 @@ SOFTWARE.
     
 ## Contributing<a name="contributing"></a>
 Check the link [Covenant Contributor](https://www.contributor-covenant.org) 
+
+<img width="1623" alt="Screen Shot 2021-11-18 at 9 46 19 PM" src="https://user-images.githubusercontent.com/65073138/142571867-4ebbaadb-04bf-4e60-974a-33151d7ee2e5.png">
+
  
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
