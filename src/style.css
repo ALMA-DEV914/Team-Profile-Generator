@@ -1,9 +1,29 @@
 *{
     box-sizing: border-box;
+    font-family: Georgia, sans-serif;
 }
-.list-group{
-    background-color: sandybrown;
+.container{
+    background-color: rgb(6, 131, 120);
+    border-radius: 15px;
 }
-.card-body{
-    border: 2px solid green;
+.card-header{
+   background-color: rgb(9, 134, 122);
+   
+}
+.page-title{
+    color: rgb(7, 7, 7);
+    background: orange;
+}
+#engineer{
+    color: rgb(0, 255, 149);
+}
+#manager{
+   color: yellow;
+}
+#intern{
+   color: rgb(59, 230, 230);
+}
+.card{
+    border-radius: 20px;
+    background-color: silver;
 }
