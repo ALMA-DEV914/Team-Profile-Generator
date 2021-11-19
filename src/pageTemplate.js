@@ -7,7 +7,7 @@ let teamMembers = '';
 
 const engineerHTML = (member) => {
     return `
-    <div class="card col-4 text-center mx-4 bg-dark">
+    <div class="card col-3 text-center mx-4 bg-dark">
       <div class="card-header bg-primary my-4">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
@@ -26,7 +26,7 @@ const engineerHTML = (member) => {
 
 const internHTML = (member) => {
   return `
-    <div class="card col-4 text-center mx-4 bg-dark">
+    <div class="card col-3 text-center mx-4 bg-dark">
       <div class="card-header bg-primary my-4">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title">${member.getRole()}</h3>
@@ -44,7 +44,7 @@ const internHTML = (member) => {
 };
 const managerHTML = (member) => {
     return `
-      <div class="card col-4 text-center mx-4 bg-dark">
+      <div class="card col-3 text-center mx-4 bg-dark">
         <div class="card-header bg-primary my-4">
             <h2 class="card-title text-light">${member.name }</h2>
             <h3 class="card-title">${member.getRole()}</h3>
