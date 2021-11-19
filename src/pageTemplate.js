@@ -10,7 +10,7 @@ const engineerHTML = (member) => {
     <div class="column col-3 my-5">
     <div class="card text-center mx-3">
       <div class="card-header my-4 mx-2">
-      <img class="card-img-top" src="https://college-diversity.unc.edu/wp-content/uploads/sites/3/2021/01/avatar-256x256.png" alt="image">
+      <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title" id="engineer">${member.getRole()}</h3>
       </div>
@@ -31,7 +31,7 @@ const internHTML = (member) => {
   <div class="column col-3 my-5">
     <div class="card text-center mx-3">
       <div class="card-header my-4 mx-2">
-      <img class="card-img-top" src="https://college-diversity.unc.edu/wp-content/uploads/sites/3/2021/01/avatar-256x256.png" alt="image">
+      <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image">
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title" id="intern">${member.getRole()}</h3>
       </div>
@@ -51,7 +51,7 @@ const managerHTML = (member) => {
     <div class="column col-3 my-5">
       <div class="card text-center mx-3 ">
         <div class="card-header my-4 mx-2">
-        <img class="card-img-top" src="https://college-diversity.unc.edu/wp-content/uploads/sites/3/2021/01/avatar-256x256.png" alt="image">
+        <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image">
             <h2 class="card-title text-light">${member.name }</h2>
             <h3 class="card-title" id="manager">${member.getRole()}</h3>
         </div>
@@ -100,6 +100,7 @@ const managerHTML = (member) => {
     <header>
       <div class="container flex-row justify-space-between align-center py-4">
         <h1 class="page-title py-4 px-3 text-center"> Team Builders</h1>
+        <p>Software Workforce 2021</p>
       </div>
     </header>
     <main class="row mx-4 my-4">
