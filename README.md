@@ -34,8 +34,8 @@ First install node, navigate to your directory and type npm install jest --save-
 
  First, cloned the Github Repository of this project. Open in your terminal and run node index.js where all the prompt questions will appear one by one. Answers all questions and navigate to the dist folder where the generated HTML page will be created. Write click the file and view on live server or open on browser and you can see the file and informations you had inputted like the sample snaphot below:
  You can also refer to the walkthrough video for more detailed instructions about this application.
- 
- <img width="1635" alt="Screen Shot 2021-11-19 at 9 42 58 AM" src="https://user-images.githubusercontent.com/65073138/142667588-7e7b2c96-0de5-469c-bbea-56cb0e1adeb0.png">
+
+<img width="1731" alt="Screen Shot 2021-11-23 at 1 20 30 PM" src="https://user-images.githubusercontent.com/65073138/143131233-e15a3fff-3710-44a3-9923-1d127fd3af6b.png">
 
 <img width="1623" alt="Screen Shot 2021-11-18 at 9 46 19 PM" src="https://user-images.githubusercontent.com/65073138/142571991-6c17e5c7-345a-4058-a1fe-64437d78fa62.png">
 
