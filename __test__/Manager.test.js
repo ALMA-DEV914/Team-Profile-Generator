@@ -1,4 +1,4 @@
-const Manager = require("../lib/Manager")
+const Manager = require("../lib/Manager");
 
 test('get Office number', () => {
     const name = 'newname'
