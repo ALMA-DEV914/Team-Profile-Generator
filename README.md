@@ -14,6 +14,7 @@ My challenge is to build a Node.js command-line application that takes in inform
 
 Because this application won’t be deployed, I also need to provide a link to a walkthrough video that demonstrates the functionality and all of the tests passing. I also need to submit a link to the video and add it to the README of my project.
 
+[LINK TO HTML](https://github.com/ALMA-DEV914/Team-Profile-Generator/blob/main/dist/index.html)
 
 ## Table of contents
     

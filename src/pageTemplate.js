@@ -100,7 +100,7 @@ const managerHTML = (member) => {
     <header>
       <div class="container flex-row justify-space-between align-center py-4">
         <h1 class="page-title py-4 px-3 text-center"> Team Builders</h1>
-        <p>Software Workforce 2021</p>
+        <p>Developers Workforce 2021</p>
       </div>
     </header>
     <main class="row mx-4 my-4">
