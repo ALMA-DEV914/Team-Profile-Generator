@@ -7,12 +7,14 @@ let teamMembers = '';
 
 const engineerHTML = (member) => {
     return `
-    <div class="column col-3 my-5">
+    <div class="column col-3 my-2">
     <div class="card text-center mx-3">
       <div class="card-header my-4 mx-2">
-      <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image">
+      <div class="container flex-row">
+      <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image" >
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title" id="engineer">${member.getRole()}</h3>
+          </div>
       </div>
       <div class="card-body">
           <ul class="list-group">
@@ -28,12 +30,14 @@ const engineerHTML = (member) => {
 
 const internHTML = (member) => {
   return `
-  <div class="column col-3 my-5">
+  <div class="column col-3 my-2">
     <div class="card text-center mx-3">
       <div class="card-header my-4 mx-2">
-      <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image">
+      <div class="container flex-row">
+      <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image" >
           <h2 class="card-title text-light">${member.name }</h2>
           <h3 class="card-title" id="intern">${member.getRole()}</h3>
+          </div>
       </div>
       <div class="card-body">
           <ul class="list-group">
@@ -48,12 +52,14 @@ const internHTML = (member) => {
 };
 const managerHTML = (member) => {
     return `
-    <div class="column col-3 my-5">
+    <div class="column col-3 my-2">
       <div class="card text-center mx-3 ">
         <div class="card-header my-4 mx-2">
-        <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image">
+        <div class="container flex-row">
+        <img class="card-img-top" src="https://stgluvias.org.uk/wp-content/uploads/2020/06/vacancy-avatar.png" alt="image" >
             <h2 class="card-title text-light">${member.name }</h2>
             <h3 class="card-title" id="manager">${member.getRole()}</h3>
+            </div>
         </div>
         <div class="card-body">
             <ul class="list-group">

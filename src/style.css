@@ -28,10 +28,18 @@
     background-color: silver;
 }
 img{
+    
     border-radius: 100%;
     
 }
 p{
     color: white;
     text-align: center;
+    
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 22px;
 }
