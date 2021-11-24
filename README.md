@@ -6,7 +6,7 @@ Alma Braun @2021
 
 Github Repository :[Github Repo](https://github.com/ALMA-DEV914/Team-Profile-Generator)
 
-Walkthrough Video:
+Walkthrough Video: [Walkthrough video link](https://www.youtube.com/watch?v=YcIkPtOUuz4)
 
 ## Description<a name="description"></a>
 
