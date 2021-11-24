@@ -1,10 +1,11 @@
+//call all the file source paths associated with the root file
 const Employee = require("../lib/Employee")
 const Engineer = require("../lib/Engineer")
 const Manager = require("../lib/Manager")
 const Intern = require("../lib/Intern")
-
+// assign the variables for the initial file
 let teamMembers = '';
-
+// create functions to initialize an html file for the engineer section
 const engineerHTML = (member) => {
     return `
     <div class="column col-3 my-2">
@@ -27,7 +28,7 @@ const engineerHTML = (member) => {
 </div> 
     `;
 };
-
+// create a functions that initialize the html file for the intern section
 const internHTML = (member) => {
   return `
   <div class="column col-3 my-2">
@@ -50,6 +51,7 @@ const internHTML = (member) => {
 </div>  
     `;
 };
+// create a function that initialize the html file for the manager section
 const managerHTML = (member) => {
     return `
     <div class="column col-3 my-2">
@@ -72,7 +74,7 @@ const managerHTML = (member) => {
      </div>   
       `;
   };
-  
+  // functions to initialize the page and assign the object value for each
   const generateHTML= (myTeam) =>{
       myTeam.forEach(member => {
           if(member.getRole() === 'Engineer'){
@@ -87,7 +89,7 @@ const managerHTML = (member) => {
       }
   } 
       )
-    
+    // call the generated Html page
     return `
     <!DOCTYPE html>
     <html lang="en">
@@ -117,5 +119,5 @@ const managerHTML = (member) => {
     `;
 }
 
-
+// call back to write the file
 module.exports = generateHTML;
